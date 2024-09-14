@@ -555,11 +555,16 @@
  }
 
   .footer .social-icons {
-   width: 40px;
-   height: 40px;
+   height: 100%;
   }
 
- .footer .social-icons:hover {
+  .footer .icon {
+   width: 40px;
+      height: 40px;
+  }
+
+ .footer .social-icons:hover,
+ .footer .social-icons:focus {
    background-color: var(--cl-success);
  }
 
