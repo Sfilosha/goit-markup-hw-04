@@ -559,11 +559,6 @@
      height: 40px;
   }
 
-  .footer .icon {
-      height: 100%;
-      width: 100%;
-  }
-
  .footer .social-icons:hover,
  .footer .social-icons:focus {
    background-color: var(--cl-success);
