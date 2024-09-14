@@ -24,7 +24,7 @@
     --indent-col: 24px;
 
     /* Animations */
-    --anim-duration-basic: 500ms
+    --anim-duration-basic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  /* #endregion Root */
@@ -267,7 +267,11 @@
    background-image: linear-gradient( rgb(46 47 66 / 0.7), rgb(46 47 66 / 0.7)),
       url(../images/hero/hero-bg.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
+   background-position: center;
+
+   max-width: 1440px;
+   margin: 0 auto;
  }
 
  .hero-section {
