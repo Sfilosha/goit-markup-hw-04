@@ -555,13 +555,12 @@
  }
 
  .footer-socials-list-item {
-   width: 40px;
-      height: 40px;
+   
  }
 
   .footer .social-icons {
-     width: 100%;
-     height: 100%;
+   width: 40px;
+   height: 40px;
   }
 
  .footer .social-icons:hover,
